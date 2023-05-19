@@ -1,0 +1,18 @@
+.projectList{
+    font-size: 20px;
+    margin-right: 70px;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.active{
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    .projectList{
+        margin-right: 20px;
+    }
+}
+

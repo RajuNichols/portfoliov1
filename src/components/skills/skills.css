@@ -1,0 +1,40 @@
+.s{
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+
+}
+.s-browser{
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+}
+.s-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: white;
+
+}
+.s-img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+.s:hover .s-img{
+    transform: scale(1.1)
+}
+
+@media screen and (max-width: 480px) {
+    .s{
+        width: 40%;
+        height: 20vh;
+    }
+}
